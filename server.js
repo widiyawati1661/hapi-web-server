@@ -6,7 +6,7 @@ const init = async () => {
         port: 5000,
         host:'localhost',
     });
-    //menjalankannya secara asynchronous dalam func async dan memenaggil server.start() menggunakan await
+    //menjalankannya secara asynchronous dalam func async dan memanggil server.start() menggunakan await
     await server.start();
     console.log(`Servernya lagi jalan di ${server.info.uri}`);
 }
